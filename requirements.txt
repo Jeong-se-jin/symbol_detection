@@ -1,0 +1,10 @@
+# Python 3.12
+numpy==2.5.3
+opencv-python-headless==5.0.0.93
+scikit-image==0.26.0          # skeletonize — carrier 와 leader.py
+pymupdf==1.28.2               # PDF 입력
+scipy==1.18.1
+pillow==12.3.0
+
+# PaddleOCR 은 여기 없다. ocr_paddle.py 만 별도 인터프리터에서 돈다 —
+# pipeline.py 의 DETECT_VENV / --ocr-python 참조.

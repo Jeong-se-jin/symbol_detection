@@ -1,0 +1,13 @@
+# 가상환경 (461MB)
+.venv/
+__pycache__/
+*.pyc
+
+# 출력물 — 재생성된다 (pipeline.py → textmap.py → textmap_render.py)
+out/
+
+# OCR 캐시 — 렌더된 페이지의 내용 해시가 키다. 기계마다 다시 채워진다
+cache/
+
+# 입력 도면은 저장소에 두지 않는다 (아래 주석 참조)
+input/
